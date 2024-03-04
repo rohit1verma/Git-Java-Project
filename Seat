@@ -1,0 +1,15 @@
+class Price{
+    int d,c;
+    public Price(int d,int c){
+        this.d=d;
+        this.c=c;
+    }
+    private double priceCal(){ //Calculate Price
+        double price;
+        if(c==0) price=2*d;
+        else if(c==1) price=0.5*d;
+        else price=0.3*d;
+        return price;
+    }
+
+}
