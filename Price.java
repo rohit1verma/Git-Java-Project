@@ -5,7 +5,7 @@ class Price{
         this.c=c;
     }
     //Calculate the price according to seat type and distance
-    private double priceCal(){ //Calculate Price
+    private double priceCal(){ 
         double price;
         if(c==0) price=2*d;
         else if(c==1) price=0.5*d;
